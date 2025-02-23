@@ -12,6 +12,6 @@ Command:
 ```bash
 sudo adduser tupu
 - This command creates the user tupu with a home directory and necessary configurations.
-
 ### **Step 1: Create Tupu User**  
-Command:  
+Command: 
+ 
