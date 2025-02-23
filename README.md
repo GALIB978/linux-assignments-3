@@ -13,5 +13,5 @@ Command:
 sudo adduser tupu
 - This command creates the user tupu with a home directory and necessary configurations.
 
+---
 
-Step 2: Create Lupu User
