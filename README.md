@@ -20,9 +20,9 @@ Since `hupu` is a system user with no login capabilities, we used the following 
 
 ## 4. Adding Users to the Sudo Group
 There are two methods to grant `tupu` and `lupu` sudo privileges:
-
-`sudo usermod -aG sudo tupu`
-`sudo usermod -aG sudo lupu`
+_ Command used :
+- `sudo usermod -aG sudo tupu`
+- `sudo usermod -aG sudo lupu`
 
 
 ## 5. Setting Up /opt/projekti Directory with Proper Permissions
