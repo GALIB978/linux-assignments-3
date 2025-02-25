@@ -11,21 +11,19 @@ We used the `adduser` script to create the `tupu` user, which automatically set 
 ## 2. Creating the Lupu User
 We used the `useradd` command with specific flags to ensure that `lupu` had a home directory, a user profile, and a user group.
 
-- Command used: `sudo useradd -m -d /home/lupu -s /bin/bash -G lupu lupu`
+- Command used : `sudo useradd -m -d /home/lupu -s /bin/bash -G lupu lupu`
 
 ## 3. Creating the Hupu System User
 Since `hupu` is a system user with no login capabilities, we used the following command:
-```bash
-sudo useradd --system --shell /bin/false hupu
-```
+
+- Command used : `sudo useradd --system --shell /bin/false hupu`
 
 ## 4. Adding Users to the Sudo Group
 There are two methods to grant `tupu` and `lupu` sudo privileges:
 
-```bash
-sudo usermod -aG sudo tupu
-sudo usermod -aG sudo lupu
-```
+`sudo usermod -aG sudo tupu`
+`sudo usermod -aG sudo lupu`
+
 
 ## 5. Setting Up /opt/projekti Directory with Proper Permissions
 We created the `/opt/projekti` directory and set up a group that allows only `tupu` and `lupu` to access and modify the files.
