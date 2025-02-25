@@ -29,26 +29,25 @@ _ Command used :
 We created the `/opt/projekti` directory and set up a group that allows only `tupu` and `lupu` to access and modify the files.
 
 ### Step 1: Create the `projekti` Group
-```bash
-sudo groupadd projekti
-```
+
+- Command used : `sudo groupadd projekti`
 
 ### Step 2: Add Users to the Group
-```bash
-sudo usermod -aG projekti tupu
-sudo usermod -aG projekti lupu
-```
+- Command used : 
+- `sudo usermod -aG projekti tupu`
+- `sudo usermod -aG projekti lupu`
+
 
 ### Step 3: Change Ownership of the Directory
-```bash
-sudo mkdir -p /opt/projekti
-sudo chown :projekti /opt/projekti
-```
+- Command used : 
+- `sudo mkdir -p /opt/projekti`
+- `sudo chown :projekti /opt/projekti`
+
 
 ### Step 4: Set Proper Permissions
-```bash
-sudo chmod 2770 /opt/projekti
-```
+
+- Command used : `sudo chmod 2770 /opt/projekti`
+
 - `2` sets the SetGID bit, ensuring that new files inherit the `projekti` group.
 - `770` allows full access to group members and denies access to others.
 
