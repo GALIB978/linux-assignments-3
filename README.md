@@ -6,9 +6,7 @@
 
 ## 1. Creating the Tupu User
 We used the `adduser` script to create the `tupu` user, which automatically set up the user profile, home directory, and default user group.
-```bash
 - Command used : sudo adduser tupu
-```
 
 ## 2. Creating the Lupu User
 We used the `useradd` command with specific flags to ensure that `lupu` had a home directory, a user profile, and a user group.
