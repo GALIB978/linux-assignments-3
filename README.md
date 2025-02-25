@@ -20,9 +20,9 @@ Since `hupu` is a system user with no login capabilities, we used the following 
 
 ## 4. Adding Users to the Sudo Group
 There are two methods to grant `tupu` and `lupu` sudo privileges:
-_ Command used :
-- `sudo usermod -aG sudo tupu`
-- `sudo usermod -aG sudo lupu`
+- Command used :
+ `sudo usermod -aG sudo tupu`
+ `sudo usermod -aG sudo lupu`
 
 
 ## 5. Setting Up /opt/projekti Directory with Proper Permissions
@@ -34,14 +34,14 @@ We created the `/opt/projekti` directory and set up a group that allows only `tu
 
 ### Step 2: Add Users to the Group
 - Command used : 
-- `sudo usermod -aG projekti tupu`
-- `sudo usermod -aG projekti lupu`
+ `sudo usermod -aG projekti tupu`
+ `sudo usermod -aG projekti lupu`
 
 
 ### Step 3: Change Ownership of the Directory
 - Command used : 
-- `sudo mkdir -p /opt/projekti`
-- `sudo chown :projekti /opt/projekti`
+ `sudo mkdir -p /opt/projekti`
+ `sudo chown :projekti /opt/projekti`
 
 
 ### Step 4: Set Proper Permissions
