@@ -3,13 +3,11 @@
 
 # User and File Permission Setup
 
-## Task Overview
-This document provides a step-by-step guide on how users were created and file permissions were configured on a Linux virtual machine.
 
 ## 1. Creating the Tupu User
 We used the `adduser` script to create the `tupu` user, which automatically set up the user profile, home directory, and default user group.
 ```bash
-sudo adduser tupu
+- Command used : sudo adduser tupu
 ```
 
 ## 2. Creating the Lupu User
