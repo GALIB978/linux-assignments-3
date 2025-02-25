@@ -10,9 +10,8 @@ We used the `adduser` script to create the `tupu` user, which automatically set 
 
 ## 2. Creating the Lupu User
 We used the `useradd` command with specific flags to ensure that `lupu` had a home directory, a user profile, and a user group.
-```bash
-sudo useradd -m -d /home/lupu -s /bin/bash -G lupu lupu
-```
+
+- Command used: `sudo useradd -m -d /home/lupu -s /bin/bash -G lupu lupu`
 
 ## 3. Creating the Hupu System User
 Since `hupu` is a system user with no login capabilities, we used the following command:
