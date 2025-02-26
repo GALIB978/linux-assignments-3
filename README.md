@@ -45,14 +45,14 @@ We created the `/opt/projekti` directory and set up a group that allows only `tu
 
 ### Step 2: Add Users to the Group
 - Command used : 
- `sudo usermod -aG projekti tupu`
- `sudo usermod -aG projekti lupu`
+- `sudo usermod -aG projekti tupu`
+- `sudo usermod -aG projekti lupu`
 
 
 ### Step 3: Change Ownership of the Directory
-- Command used : 
- `sudo mkdir -p /opt/projekti`
- `sudo chown :projekti /opt/projekti`
+- Command used :
+- `sudo mkdir -p /opt/projekti`
+- `sudo chown :projekti /opt/projekti`
 
 
 ### Step 4: Set Proper Permissions
