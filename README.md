@@ -25,8 +25,8 @@ There are two methods to grant `tupu` and `lupu` sudo privileges:
 - `sudo visudo`
 Add the following lines at the end of the file:
 
-tupu ALL=(ALL:ALL) ALL
-lupu ALL=(ALL:ALL) ALL
+- tupu ALL=(ALL:ALL) ALL
+- lupu ALL=(ALL:ALL) ALL
 
 
 ### Method 2: Adding Users to the sudo Group
