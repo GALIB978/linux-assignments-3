@@ -31,8 +31,8 @@ Add the following lines at the end of the file:
 
 ### Method 2: Adding Users to the sudo Group
 
--sudo usermod -aG sudo tupu
--sudo usermod -aG sudo lupu
+- sudo usermod -aG sudo tupu
+- sudo usermod -aG sudo lupu
 
 
 
